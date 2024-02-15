@@ -12,8 +12,8 @@ In this case study, we explore the role of Git forking, a fundamental feature in
 
 ## Fork History
 
- - **2 Feb 2024**: **Fork 1.94 released** - Ability to add a remote when pushing in a repo without remotes.
- - **27 Jan 2023**: **Fork 1.81 released** - Update git to 2.39.1.
+ - **2 Feb 2024**: **Fork 1.94 released** - ability to add a remote when pushing in a repo without remotes.
+ - **27 Jan 2023**: **Fork 1.81 released** - update git to 2.39.1.
  - **28 Jan 2022**: **Fork 1.70 released** 
     - Lean branching - a git branching model to keep clean history (check Branch button on the toolbar).
     - Git integration.
@@ -31,15 +31,8 @@ In this case study, we explore the role of Git forking, a fundamental feature in
     - Ability to wrap commit message by ruler.
     - Ability to resolve multiple file conflicts at once.
     - Take commit template into account.
- - **29 Mar 2018**: **Fork 1.14 released** - Implemented filter for branches and tags.
- - **2008-2009**: **Pull Requests developed** - GitHub introduced pull requests, a feature that allows developers to propose changes  
-      from their forked repositories to the original repository. This streamlined the process of contributing to projects 
-      and opened up new avenues for collaboration.
- - **2008**: **GitHub Launch** - GitHub made it incredibly easy for developers to fork repositories hosted on the platform, 
-      enabling collaborative development and contribution to open-source projects.
- - **April 2005**: **Git created** -  Git itself was created by Linus Torvalds and forking was a part of its design from the beginning. So, 
-      you could say Git forking was created when Git was first developed.
-
+ - **29 Mar 2018**: **Fork 1.14 released** - implemented filter for branches and tags.
+ - **24 May 2017**: **Fork the Git client** - was created and developed by software developer Danil Borchevkin.
 
 ## Main Features
 
@@ -126,9 +119,6 @@ It empowers developers to work efficiently, collaborate effectively, contribute 
 | Feature | Description |
 | --- | --- |
 | Independent Copy | Forking creates an independent copy of a repository, allowing developers to work on changes without affecting the original project. |
-| Branching| Forks can have their own branches, enabling developers to organize and isolate their work within the context of their forked repository. |
-| Pull Requests | Platforms like GitHub, GitLab, and Bitbucket support pull requests, which allow developers to propose changes from their forked repository to the original repository. This facilitates collaboration and code review. |
-| Merging |Developers can merge changes from their fork back into the original repository via pull requests or by pulling changes from the upstream repository into their fork. |
 | Visibility |  Forks can be public or private, giving developers control over who can view and contribute to their forked repository.|
 | Fork Tracking | Forks maintain a connection to the original repository, allowing developers to track changes and updates in the upstream repository. |
 | Permissions| Forks inherit permissions from the original repository, but developers can also set custom permissions for their forked repository as needed.|
