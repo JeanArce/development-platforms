@@ -184,10 +184,6 @@ With history view you can find all commits where a particular file or directory 
 ![History](https://git-fork.com/images/historyWin.jpg)
 
 
-
-If applicable, describe how to get started with your chosen tool. By providing examples, this can help to demystify a tool and make it more accessible to beginners.
-
-
 ## **Conclusion**
 
 Using Fork as a Git client offers a balance of accessibility, functionality, and community support, making it a viable option for individuals, small teams, and open-source projects looking for a free and feature-rich Git client. However, users should be aware of potential challenges such as the learning curve and resource usage when considering Fork for their development workflows.
