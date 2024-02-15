@@ -174,8 +174,25 @@ Fork offers a user-friendly and feature-rich interface for managing Git reposito
 
 
 ## **Getting Started**
+To get started with Fork, download and install the application on your computer, open Fork then  clone or initialize a git repository. After that with fork you can now easily pull or push updates, create branches, rename branch and etc using the fork gui without using the command line. It is very easy now to manage the repository, especially if you are not really familiar or have memorized those git commands in the command line.
+ ### Here's a step-by-step guide :
+ 1. **Download Fork**: Visit the official Fork website at git-fork.com and navigate to the "Download" section. You'll find options to download Fork for macOS and Windows.
+ 2. **Install Fork**: Once the download is complete, open the installer file and follow the on-screen instructions to install Fork on your computer. The installation process is straightforward and similar to installing other applications.
+ 3. **Launch Fork**: After installation, launch the Fork application from your computer's applications or programs menu.
+ 4. **Sign in (Optional)**: You may be prompted to sign in to your Fork account. Signing in is optional and not required to use Fork, but it allows you to sync your preferences and settings across multiple devices.
+ 5. **Clone a Repository**: To start working with a Git repository in Fork, you can clone an existing repository or create a new one. 
+  - **Here's how to clone a repository**:
+     - Click on the "Clone" button in the Fork toolbar or select "File" > "Clone Repository" from the menu.
+     - Enter the URL of the repository you want to clone. This can be a remote URL from GitHub, GitLab, Bitbucket, or any other Git hosting service.
+     - Choose the local directory where you want to save the cloned repository.
+     - Click "Clone" to initiate the cloning process. Fork will download the repository to your computer.
+6. **Explore the Repository**: Once the cloning process is complete, you can explore the contents of the repository using Fork's user interface. You'll see a list of files and folders, commit history, branches, and other Git-related information.
+7. **Make Changes**: You can make changes to the files in the repository directly within Fork. Edit files, add new files, delete files, or make any other modifications as needed.
+8. **Commit Changes**: After making changes, you'll need to commit them to the repository. To do this, stage your changes by selecting the files you want to commit, enter a commit message describing your changes, and click the "Commit" button.
+9. **Push Changes**: Once you've committed your changes, you can push them to the remote repository to make them available to others. Click the "Push" button in the toolbar to push your changes to the remote repository.
+10. **Explore More Features**: Fork offers many additional features, such as branching, merging, pull requests, code reviews, and more. Take some time to explore these features and familiarize yourself with Fork's capabilities.
 
-To get started, open Fork then you can now open, clone or initialize a git repository. After that with fork you can now easily pull or push updates, create branches, rename branch and etc using the fork gui without using the command line. It is very easy now to manage the repository, especially if you are not really familiar or have memorized those git commands in the command line.
+**You're now ready to start using Fork to work with Git repositories on your computer.**
 
 ![Diagram](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*qOtT_fhdwzty5T_AylY8YQ.png)
 
