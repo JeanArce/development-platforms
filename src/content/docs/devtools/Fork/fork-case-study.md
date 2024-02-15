@@ -14,7 +14,7 @@ In this case study, we explore the role of Git forking, a fundamental feature in
  - **27 Jan 2023**: **Fork 1.81 released** - Update git to 2.39.1.
  - **28 Jan 2022**: **Fork 1.70 released** 
     - Lean branching - a git branching model to keep clean history (check Branch button on the toolbar).
-    - Gitea integration.
+    - Git integration.
     - Ability to create commit message draft using prepare-commit-msg hook.
  - **15 Jan 2021**: **Fork 1.58 relesed** 
     - Ability to rename stashes.
