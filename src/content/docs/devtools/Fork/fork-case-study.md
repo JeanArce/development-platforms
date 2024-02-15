@@ -6,7 +6,7 @@ tags: fork, case study, dev platform, GUI, workflow, dev tool, multiplatform, UI
 
  ![Fork](https://git-fork.com/images/logo.png)
 ## Introduction 
-In this case study, we explore the role of Git forking, a fundamental feature in collaborative software development. Git forking allows developers to create independent copies of repositories, enabling experimentation and contribution without directly altering the original codebase. Through real-world examples and insights, we aim to demonstrate the benefits, challenges, and best practices associated with Git forking. 
+In this case study, we explore the role of Git forking, a fundamental feature in collaborative software development.  Fork is a Git client application that provides a graphical user interface (GUI) for working with Git repositories. It's available for macOS and Windows platforms. Git forking allows developers to create independent copies of repositories, enabling experimentation and contribution without directly altering the original codebase. Through real-world examples and insights, we aim to demonstrate the benefits, challenges, and best practices associated with Git forking. 
 
 ## Fork History
 
@@ -16,10 +16,10 @@ In this case study, we explore the role of Git forking, a fundamental feature in
     - Lean branching - a git branching model to keep clean history (check Branch button on the toolbar).
     - Git integration.
     - Ability to create commit message draft using prepare-commit-msg hook.
- - **15 Jan 2021**: **Fork 1.58 relesed** 
+ - **15 Jan 2021**: **Fork 1.58 released** 
     - Ability to rename stashes.
-    - Add list of repositories to the accounts dialog.
-    - Ability to edit remote branch name on push .  
+    - Add list of repositories to the accounts.
+    - Ability to edit remote branch name on push.  
  - **31 Jan 2020**: **Fork 1.44 released** 
     - Show different branch icons according to upstream status.
     - Show output of git commands in activity manager.
@@ -41,9 +41,22 @@ In this case study, we explore the role of Git forking, a fundamental feature in
 
 ## Main Features
 
-The primary purpose of forking a Git repository is to enable collaborative development while maintaining the original project's integrity.
+Fork Git client offers a range of features to streamline the Git workflow. Fork is designed to be a user-friendly Git client for developers who prefer a GUI-based approach to working with Git repositories. It offers many of the same features available in command-line Git, but with a more intuitive interface for those who are less familiar with Git commands.
 
 ![Fork](https://git-fork.com/images/image1Win.jpg)
+
+
+- **Repository Management**: - Fork allows you to clone, create, and manage Git repositories directly from the application. You can easily clone repositories from remote URLs or add existing local repositories.
+
+- **Branching and Merging**: -  You can create and switch between branches, merge branches, and resolve merge conflicts directly within the application. Fork provides visual tools to help you understand the branching and merging process.
+
+- **Committing and Pushing**: - Fork simplifies the process of committing changes to your local repository and pushing them to remote repositories. You can stage changes, write commit messages, and push commits with a few clicks.
+
+- **Pull Requests and Code Reviews**: - Fork integrates with Git hosting platforms like GitHub, GitLab, and Bitbucket, allowing you to create pull requests, review code, and collaborate with other developers directly from the application.
+
+- **History and Diff Viewer**: - You can view the commit history of a repository and compare different versions of files using Fork's built-in history and diff viewer. This helps you understand the evolution of the codebase and track changes over time.
+
+- **Search and Filter**: - Fork provides search and filter capabilities to help you navigate large repositories and find specific files or commits quickly.
 
 
 - **Independent Work**: - Forking allows developers to create a separate copy of a repository where they can work independently on new features, bug fixes, or experiments without affecting the original project.
