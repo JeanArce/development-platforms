@@ -12,27 +12,28 @@ In this case study, we explore the role of Git forking, a fundamental feature in
 
 ## Fork History
 
- - **2 Feb 2024**: **Fork 1.94 released** - ability to add a remote when pushing in a repo without remotes.
- - **27 Jan 2023**: **Fork 1.81 released** - update git to 2.39.1.
- - **28 Jan 2022**: **Fork 1.70 released** 
-    - Lean branching - a git branching model to keep clean history (check Branch button on the toolbar).
-    - Git integration.
-    - Ability to create commit message draft using prepare-commit-msg hook.
- - **15 Jan 2021**: **Fork 1.58 released** 
-    - Ability to rename stashes.
-    - Add list of repositories to the accounts.
-    - Ability to edit remote branch name on push.  
- - **31 Jan 2020**: **Fork 1.44 released** 
-    - Show different branch icons according to upstream status.
-    - Show output of git commands in activity manager.
-    - Ability to create pull requests for GitHub, Bitbucket, GitLab, Azure DevOps.
+ - **24 May 2017**: **Fork the Git client** - was created and developed by software developer Danil Borchevkin.
+ - **29 Mar 2018**: **Fork 1.14 released** - implemented filter for branches and tags.
  - **15 Jan 2019**: **Fork 1.26 released**  
     - Allow to amend commits during interactive rebase.
     - Ability to wrap commit message by ruler.
     - Ability to resolve multiple file conflicts at once.
-    - Take commit template into account.
- - **29 Mar 2018**: **Fork 1.14 released** - implemented filter for branches and tags.
- - **24 May 2017**: **Fork the Git client** - was created and developed by software developer Danil Borchevkin.
+    - Take commit template into account. 
+ - **31 Jan 2020**: **Fork 1.44 released** 
+    - Show different branch icons according to upstream status.
+    - Show output of git commands in activity manager.
+    - Ability to create pull requests for GitHub, Bitbucket, GitLab, Azure DevOps.
+ - **15 Jan 2021**: **Fork 1.58 released** 
+    - Ability to rename stashes.
+    - Add list of repositories to the accounts.
+    - Ability to edit remote branch name on push.  
+ - **28 Jan 2022**: **Fork 1.70 released** 
+    - Lean branching - a git branching model to keep clean history (check Branch button on the toolbar).
+    - Git integration.
+    - Ability to create commit message draft using prepare-commit-msg hook.
+ - **27 Jan 2023**: **Fork 1.81 released** - update git to 2.39.1.
+ - **2 Feb 2024**: **Fork 1.94 released** - ability to add a remote when pushing in a repo without remotes.
+
 
 ## Main Features
 
@@ -42,15 +43,20 @@ Fork Git client offers a range of features to streamline the Git workflow. Fork 
 
 It offers many of the same features available in command-line Git, but with a more intuitive interface for those who are less familiar with Git commands.
 
-- **Repository Management**: - Fork allows you to clone, create, and manage Git repositories directly from the application. You can easily clone repositories from remote URLs or add existing local repositories.
+ ### Repository Management: 
+   - Fork allows you to clone, create, and manage Git repositories directly from the application. You can easily clone repositories from remote URLs or add existing local repositories.
 
-- **Branching and Merging**: -  You can create and switch between branches, merge branches, and resolve merge conflicts directly within the application. Fork provides visual tools to help you understand the branching and merging process.
+ ### Branching and Merging: 
+ - You can create and switch between branches, merge branches, and resolve merge conflicts directly within the application. Fork provides visual tools to help you understand the branching and merging process.
 
-- **Committing and Pushing**: - Fork simplifies the process of committing changes to your local repository and pushing them to remote repositories. You can stage changes, write commit messages, and push commits with a few clicks.
+ ### Committing and Pushing:
+  - Fork simplifies the process of committing changes to your local repository and pushing them to remote repositories. You can stage changes, write commit messages, and push commits with a few clicks.
 
-- **Pull Requests and Code Reviews**: - Fork integrates with Git hosting platforms like GitHub, GitLab, and Bitbucket, allowing you to create pull requests, review code, and collaborate with other developers directly from the application.
+ ### Pull Requests and Code Reviews: 
+ - Fork integrates with Git hosting platforms like GitHub, GitLab, and Bitbucket, allowing you to create pull requests, review code, and collaborate with other developers directly from the application.
 
-- **History and Diff Viewer**: - You can view the commit history of a repository and compare different versions of files using Fork's built-in history and diff viewer. This helps you understand the evolution of the codebase and track changes over time.
+ ### History and Diff Viewer: 
+ - You can view the commit history of a repository and compare different versions of files using Fork's built-in history and diff viewer. This helps you understand the evolution of the codebase and track changes over time.
 
 - **Search and Filter**: - Fork provides search and filter capabilities to help you navigate large repositories and find specific files or commits quickly.
 
@@ -75,8 +81,6 @@ Forking in Git serves as a flexible and powerful mechanism for collaboration, ex
 
 - **Contributing to Open Source**: -  Forking is instrumental in contributing to open-source projects. It enables developers to make changes to their forked copy, test them, and then submit pull requests to the original repository for review and potential inclusion in the main project.
 
-- **Maintaining Customizations**: -  Organizations often fork repositories to maintain custom versions of software tailored to their specific needs. By forking, they can apply their modifications while still having the option to pull in updates from the upstream repository.
-
 - **Experimentation and Testing**: - Forking provides a safe environment for experimentation and testing. Developers can create forks to try out new features, explore alternative approaches, or conduct experiments without affecting the stability of the main project.
 
 - **Addressing Disagreements**: - In collaborative projects where there are disagreements about the direction or implementation of changes, forking can provide a way for dissenting parties to pursue their vision independently without impeding progress in the main project.
@@ -88,8 +92,6 @@ Forking in Git serves as a flexible and powerful mechanism for collaboration, ex
 - **Decentralized Development**: -  Git is a distributed version control system, meaning every developer has a complete copy of the repository, including its entire history. Forking in Git takes advantage of this decentralized nature, allowing developers to create independent copies of a repository and work on them without relying on a central authority.
 
 - **Granular Control**: -  Git provides granular control over forking and merging. Developers can fork a repository at any point in its history, allowing for flexibility in experimenting with different versions or branches. Additionally, Git's powerful merging capabilities enable the integration of changes from forks back into the original repository with precision and control.
-
-- **Pull Requests**: - Platforms like GitHub, GitLab, and Bitbucket have popularized the use of pull requests, which are a mechanism for proposing changes from a forked repository to the original repository. This workflow streamlines the process of collaboration, code review, and integration of contributions, making Git forking a seamless and efficient practice.
 
 - **Community Collaboration**: - Git forking has become deeply ingrained in the culture of open-source software development. It fosters a sense of community collaboration, allowing developers from around the world to contribute to projects, share ideas, and collectively improve software without barriers.
 
@@ -105,13 +107,7 @@ Git forking offers a unique and powerful approach to collaborative software deve
 
 - **Collaboration**: - Multiple developers can fork a repository and work on different features or fixes simultaneously without interfering with each other's work. This parallel development streamlines collaboration and accelerates the pace of development.
 
-- **Contributing to Open Source**: - Forking is instrumental in contributing to open-source projects. It enables developers to make changes to their forked copy, test them, and then submit pull requests to the original repository for review and potential inclusion in the main project.
-
-- **Maintaining Customizations**: - Organizations often fork repositories to maintain custom versions of software tailored to their specific needs. By forking, they can apply their modifications while still having the option to pull in updates from the upstream repository.
-
 - **Addressing Disagreements**: - In collaborative projects where there are disagreements about the direction or implementation of changes, forking can provide a way for dissenting parties to pursue their vision independently without impeding progress in the main project.
-
-It empowers developers to work efficiently, collaborate effectively, contribute to open-source projects, and maintain customized versions of software, making it an invaluable tool in the developer's toolkit.
 
 
 ### Additional Features
